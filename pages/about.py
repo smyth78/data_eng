@@ -1,0 +1,3 @@
+def layout():
+    return 'about'
+

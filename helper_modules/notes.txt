@@ -1,0 +1,5 @@
+each dynamic dist choice:
+id={'type': 'de-num-dist-type', 'index': index},
+
+dynamic para choices:
+id={'type': 'de-num-para-input', 'index': index}, width=8),
