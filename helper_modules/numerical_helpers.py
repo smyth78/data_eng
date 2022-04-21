@@ -72,7 +72,7 @@ def dist_drop_down(cats, index, dist_type, cat_assoc):
     for cat in cats:
         cat_div = []
         cat_div.append(dbc.Col([
-            dbc.Label(html.Strong(cat + ' -> ' + cat_assoc)) if is_assoc else dbc.Label("Choose distribution type..."),
+            dbc.Label(html.Strong(cat)) if is_assoc else dbc.Label("Choose distribution type..."),
             dbc.Select(
 
                 id={'type': 'de-num-dist-type', 'index': index},
@@ -190,7 +190,7 @@ def correlation_degree_input(index, cat, is_assoc, cat_assoc):
         [
             dbc.Row([
                 dbc.Col([
-                    dbc.Label(html.Strong(cat + ' -> ' + cat_assoc)) if is_assoc else dbc.Label("Correlation..."),
+                    dbc.Label(html.Strong(cat)) if is_assoc else dbc.Label("Correlation..."),
                     dcc.RangeSlider(
                         min=-0.99,
                         max=0.99,
