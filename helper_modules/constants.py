@@ -1,5 +1,5 @@
 import numpy as np
-import dash_html_components as html
+from dash import html
 
 THEME_BREAK = html.Hr(style={'border-top': '1px dotted red'})
 
