@@ -6,25 +6,25 @@ This is a Dash applicaiton that allows the user to create interstsing and nuance
 
 1. Clone the repository:
 
-        git clone https://github.com/your-username/dash-app.git
+        git clone https://github.com/smyth78/data_eng
 
 
 2. Navigate to the project directory:
 
-    cd dash-app
+        cd data_eng
 
 
 3. Install the required dependencies:
 
 
-pip install -r requirements.txt
+`       pip install -r requirements.txt
 
 ## Usage
 
 To run the  app, execute the following command:
 
 
-python app.py
+        python data_eng.py
 
 Open your web browser and visit `http://localhost:8050` to view the application.
 
