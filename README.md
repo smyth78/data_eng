@@ -17,7 +17,7 @@ This is a Dash applicaiton that allows the user to create interstsing and nuance
 3. Install the required dependencies:
 
 
-`       pip install -r requirements.txt
+        pip install -r requirements.txt
 
 ## Usage
 
