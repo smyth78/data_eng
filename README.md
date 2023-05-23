@@ -1,6 +1,6 @@
 # DataEng
 
-This is a Dash applicaiton that allows the user to create interstsing and nuanced datasets which can be graphed using StudentPlotter
+This is a Dash applicaiton that allows the user to create interesting and nuanced datasets which can be graphed using StudentPlotter
 
 The app can be found live on this link: https://data-eng-v5.herokuapp.com
 
